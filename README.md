@@ -63,3 +63,19 @@ Currently in the initial setup phase.
 
 ---
 Developed as part of the Infotact Solutions Data Analytics Internship.
+## Development Progress
+
+### Day 1 - Project Setup
+- Created the project repository on GitHub.
+- Initialized Git and connected the local repository.
+- Created the initial project folder structure.
+
+### Day 2 - Documentation Update
+- Updated project documentation.
+- Prepared the project structure for upcoming development.
+- Dataset collection and analysis are planned for the next session.
+
+## Next Steps
+- Select a suitable retail mobility dataset.
+- Perform data exploration and preprocessing.
+- Develop meaningful visualizations and dashboards.
