@@ -1,0 +1,655 @@
+Category,Venue_Count
+retail,1579
+business and professional services,1145
+bank,1096
+hospital,1087
+restaurant,1053
+indian restaurant,895
+hotel,786
+atm,708
+clinic,439
+financial service,427
+car parts and accessories,419
+café,396
+place of worship,377
+fast food restaurant,352
+clothing store,319
+bakery,317
+residential building,302
+automotive repair shop,290
+healthcare clinic,279
+bar,258
+fast food,252
+coffee shop,251
+chinese restaurant,232
+office,232
+pizzeria,232
+ice cream parlor,231
+health and beauty service,205
+cafe,204
+toilets,174
+school,154
+travel and transportation,151
+movie theater,144
+snack place,143
+waste basket,142
+banking and finance,141
+medical center,139
+electronics store,138
+dessert shop,136
+spa,131
+asian restaurant,130
+bench,126
+advertising agency,126
+gym and studio,124
+temple,124
+mobile phone store,123
+pharmacy,120
+convenience store,120
+department store,115
+fuel station,112
+vegan and vegetarian restaurant,110
+health and medicine,109
+bus station,104
+property management office,99
+trade school,97
+education,96
+college and university,96
+arts and entertainment,95
+drugstore,94
+lodging,94
+shopping mall,93
+car dealership,92
+sandwich spot,91
+pub,90
+italian restaurant,86
+jewelry store,86
+juice bar,86
+seafood restaurant,86
+furniture and home store,82
+fuel,81
+manufacturer,81
+lounge,79
+shoe store,78
+technology business,77
+food truck,76
+park,76
+post office,74
+miscellaneous store,72
+diner,70
+rail station,70
+police,67
+church,67
+deli,65
+office building,65
+tea room,64
+hindu temple,64
+blood bank,63
+burger joint,61
+men's store,61
+community and government,60
+grocery store,56
+parking,51
+beach,51
+bookstore,51
+cosmetics store,48
+tobacco store,47
+event space,44
+factory,44
+mattress store,44
+travel agency,44
+women's store,44
+breakfast spot,43
+student center,43
+college academic building,41
+playground,41
+resort,41
+telecommunication service,41
+cinema,40
+coworking space,39
+dentist,38
+bbq joint,38
+ice cream,37
+college,37
+boutique,37
+gift store,37
+drinking water,35
+high school,35
+flea market,34
+smoke shop,34
+sporting goods retail,34
+doctors,33
+food court,33
+food and beverage retail,33
+chemicals and gasses manufacturer,33
+bicycle store,33
+hostel,32
+sports and recreation,32
+computer repair service,32
+construction,32
+donut shop,30
+spiritual center,30
+garden,29
+real estate service,29
+dining and drinking,29
+arts and crafts store,28
+monument,28
+industrial equipment supplier,28
+arcade,27
+cupcake shop,27
+hair salon,27
+"shipping, freight, and material transportation service",27
+library,26
+night club,26
+scenic lookout,26
+engineer,26
+it service,26
+police station,26
+taxi,25
+kindergarten,25
+shelter,25
+fashion accessories store,24
+hotel bar,24
+eyecare store,23
+government building,23
+other great outdoors,23
+laboratory,23
+website designer,23
+computers and electronics retail,23
+theatre,22
+ferry terminal,22
+boat or ferry,22
+cocktail bar,22
+interior designer,22
+medical lab,22
+american restaurant,21
+bridge,21
+music venue,21
+art gallery,20
+lake,20
+performing arts venue,20
+theater,20
+community centre,19
+bicycle parking,19
+flower store,19
+motorcycle dealership,19
+music store,19
+parking entrance,18
+dance studio,18
+design studio,18
+harbor or marina,18
+hookah bar,18
+liquor store,18
+business center,18
+financial planner,18
+home improvement service,18
+bed and breakfast,17
+cafeteria,17
+japanese restaurant,17
+mexican restaurant,17
+middle eastern restaurant,17
+event service,17
+organization,17
+marketplace,16
+bridal store,16
+concert hall,16
+fried chicken joint,16
+garden center,16
+office supply store,16
+pet supplies store,16
+automotive service,16
+daycare,16
+metals supplier,16
+non-profit organization,16
+swimming pool,16
+internet cafe,15
+children's clothing store,15
+landmarks and outdoors,15
+market,15
+sports bar,15
+management consultant,15
+security and safety,15
+studio,14
+amusement park,14
+bistro,14
+indie movie theater,14
+mosque,14
+plaza,14
+thai restaurant,14
+hardware store,14
+print store,14
+post box,13
+fountain,13
+farmers market,13
+north indian restaurant,13
+stadium,13
+steakhouse,13
+fire station,12
+airport,12
+airport terminal,12
+gastropub,12
+yoga studio,12
+electrical equipment supplier,12
+"heating, ventilating and air conditioning contractor",12
+"cafe, coffee, and tea house",12
+alternative medicine clinic,12
+airport lounge,11
+airport service,11
+beer garden,11
+fish market,11
+mediterranean restaurant,11
+multicuisine indian restaurant,11
+punjabi restaurant,11
+wine store,11
+business and strategy consulting office,11
+accounting and bookkeeping service,11
+tattoo parlor,11
+import and export service,11
+telephone,10
+college auditorium,10
+falafel restaurant,10
+gaming cafe,10
+gourmet store,10
+platform,10
+pool hall,10
+south indian restaurant,10
+employment agency,10
+tutoring service,10
+college engineering building,10
+transport hub,10
+university,9
+waste disposal,9
+candy store,9
+cheese store,9
+laundry service,9
+light rail station,9
+maharashtrian restaurant,9
+mountain,9
+mughlai restaurant,9
+whisky bar,9
+car wash and detail,9
+food and beverage service,9
+plastics supplier,9
+college administrative building,9
+college classroom,9
+computer training school,9
+preschool,9
+tour provider,9
+events venue,8
+bagel shop,8
+bowling alley,8
+brewery,8
+camera store,8
+fish and chips shop,8
+toy store,8
+pest control service,8
+photography lab,8
+stationery store,8
+car wash,7
+electronics,7
+afghan restaurant,7
+french restaurant,7
+modern european restaurant,7
+moving target,7
+architecture firm,7
+campaign office,7
+currency exchange,7
+nail salon,7
+mover,7
+painter,7
+storage facility,7
+nursery school,7
+housing development,7
+food stand,7
+construction supplies store,7
+textiles store,7
+tourist information and service,7
+antique store,6
+bengali restaurant,6
+campground,6
+farm,6
+frozen yogurt shop,6
+hiking trail,6
+irani cafe,6
+massage clinic,6
+motel,6
+new american restaurant,6
+noodle restaurant,6
+sports club,6
+water park,6
+wine bar,6
+child care service,6
+photography studio,6
+law enforcement and public safety,6
+nutritionist,6
+home appliance store,6
+tennis court,6
+soccer field,6
+driving school,5
+prep school,5
+townhall,5
+language school,5
+comfort food restaurant,5
+convention center,5
+dim sum restaurant,5
+dumpling restaurant,5
+health food store,5
+history museum,5
+hot dog joint,5
+indian chinese restaurant,5
+luggage store,5
+metro station,5
+salad restaurant,5
+sushi restaurant,5
+agriculture and forestry service,5
+audiovisual service,5
+caterer,5
+dry cleaner,5
+photography service,5
+college cafeteria,5
+college science building,5
+private school,5
+sikh temple,5
+butcher,5
+transportation service,5
+public transportation,5
+vending machine,4
+courthouse,4
+music school,4
+nightclub,4
+childcare,4
+airport food court,4
+bike rental,4
+buffet,4
+burrito restaurant,4
+casino,4
+chaat place,4
+club house,4
+college arts building,4
+goan restaurant,4
+historic and protected site,4
+indian sweet shop,4
+molecular gastronomy restaurant,4
+nature preserve,4
+pier,4
+spanish restaurant,4
+supermarket,4
+public art,4
+auditorium,4
+film studio,4
+doors and windows contractor,4
+home service,4
+photographer,4
+publisher,4
+real estate development and title company,4
+recording studio,4
+rubber supplier,4
+scientific equipment supplier,4
+tailor,4
+college lab,4
+primary and secondary school,4
+embassy or consulate,4
+housewares store,4
+shopping plaza,4
+swimming,4
+veterinary,3
+bureau de change,3
+jeweller,3
+water point,3
+adult store,3
+attraction,3
+bus stop,3
+comedy club,3
+community center,3
+creperie,3
+dhaba,3
+field,3
+hotel pool,3
+intersection,3
+karaoke bar,3
+leather goods store,3
+lingerie store,3
+neighborhood,3
+rest area,3
+road,3
+souvenir store,3
+museum,3
+psychic and astrologer,3
+distribution center,3
+loans agency,3
+carpet and flooring contractor,3
+kitchen remodeler,3
+media agency,3
+petroleum supplier,3
+refrigeration and ice supplier,3
+wedding hall,3
+adult education,3
+college communications building,3
+college gym,3
+college library,3
+college residence hall,3
+college technology building,3
+shrine,3
+szechuan restaurant,3
+winery,3
+physical therapy clinic,3
+dog park,3
+used car dealership,3
+video games store,3
+fashion retail,3
+watch store,3
+coffee roaster,3
+herbs and spices store,3
+medical supply store,3
+basketball court,3
+cricket ground,3
+boarding house,3
+travel lounge,3
+restroom,2
+public,2
+motorcycle parking,2
+social centre,2
+charging station,2
+airfield,2
+australian restaurant,2
+beer bar,2
+big box store,2
+brazilian restaurant,2
+bus line,2
+dive bar,2
+english restaurant,2
+german restaurant,2
+greek restaurant,2
+hockey stadium,2
+latin american restaurant,2
+lighthouse,2
+national park,2
+parsi restaurant,2
+science museum,2
+sculpture garden,2
+stable,2
+taxi stand,2
+tex-mex restaurant,2
+waterfront,2
+exhibit,2
+rock club,2
+ticket seller,2
+art studio,2
+automation and control system,2
+transmissions shop,2
+career counselor,2
+entertainment service,2
+funeral home,2
+skin care clinic,2
+electrician,2
+professional cleaning service,2
+machine shop,2
+meeting room,2
+wholesaler,2
+business service,2
+animal shelter,2
+cemetery,2
+cultural center,2
+college bookstore,2
+college cricket pitch,2
+public and social service,2
+buddhist temple,2
+pastry shop,2
+african restaurant,2
+gujarati restaurant,2
+rajasthani restaurant,2
+acupuncture clinic,2
+assisted living service,2
+ambulance service,2
+mental health service,2
+fruit and vegetable store,2
+organic grocery,2
+lighting store,2
+newsstand,2
+packaging supply store,2
+warehouse or wholesale store,2
+baseball field,2
+martial arts dojo,2
+badminton court,2
+recreation center,2
+skate park,2
+lodge,2
+rental car location,2
+cold storage,1
+monastery,1
+recycling,1
+car rental,1
+art school,1
+crematorium,1
+social facility,1
+dancing school,1
+reception desk,1
+training,1
+drinking water facility,1
+animal boarding,1
+phone service provider,1
+bicycle repair station,1
+electronics repair,1
+clothes,1
+beauty,1
+public building,1
+mess,1
+compressed air,1
+arts centre,1
+clubhouse,1
+hunting stand,1
+amphitheater,1
+apartment or condo,1
+aquarium,1
+argentinian restaurant,1
+canal,1
+circus,1
+duty-free store,1
+forest,1
+gluten-free restaurant,1
+gym,1
+halal restaurant,1
+hawaiian restaurant,1
+indie theater,1
+international airport,1
+korean restaurant,1
+opera house,1
+pedestrian plaza,1
+persian restaurant,1
+planetarium,1
+river,1
+roof deck,1
+sake bar,1
+shawarma restaurant,1
+south american restaurant,1
+speakeasy,1
+structure,1
+toll booth,1
+track stadium,1
+tree,1
+tunnel,1
+vietnamese restaurant,1
+zoo,1
+country dance club,1
+jazz and blues venue,1
+motorcycle repair shop,1
+tire repair shop,1
+ballroom,1
+business broker,1
+collections service,1
+barbershop,1
+tanning salon,1
+bathroom contractor,1
+fence contractor,1
+human resources agency,1
+legal service,1
+immigration attorney,1
+logging service,1
+lottery retailer,1
+mobile company,1
+corporate cafeteria,1
+paper supplier,1
+pet service,1
+radio station,1
+recycling facility,1
+renewable energy service,1
+rental service,1
+repair service,1
+translation service,1
+water treatment service,1
+welding service,1
+tech startup,1
+college history building,1
+college hockey rink,1
+college math building,1
+fraternity house,1
+law school,1
+medical school,1
+community college,1
+culinary school,1
+elementary school,1
+middle school,1
+capitol building,1
+city hall,1
+military base,1
+senior citizen service,1
+social club,1
+summer camp,1
+utility company,1
+gay bar,1
+bubble tea shop,1
+distillery,1
+cajun and creole restaurant,1
+cantonese restaurant,1
+eastern european restaurant,1
+ethiopian restaurant,1
+lebanese restaurant,1
+southern food restaurant,1
+tapas restaurant,1
+tibetan restaurant,1
+mental health clinic,1
+nursing home,1
+dive spot,1
+state or provincial park,1
+rock climbing spot,1
+waterfall,1
+baby store,1
+board store,1
+costume store,1
+discount store,1
+fireworks store,1
+beer store,1
+chocolate store,1
+framing store,1
+hobby store,1
+outlet store,1
+record store,1
+supplement store,1
+video store,1
+athletic field,1
+golf course,1
+cycle studio,1
+track,1
+skating rink,1
+ski chalet,1
+cruise,1
