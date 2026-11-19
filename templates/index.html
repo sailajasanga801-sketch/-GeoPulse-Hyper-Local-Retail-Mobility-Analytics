@@ -1,0 +1,168 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>GeoPulse | Mumbai Analytics</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+<div class="layout">
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+
+        <div class="brand">Geo<span>Pulse</span></div>
+
+        <div class="menu-title">Main Menu</div>
+
+        <div class="menu-item">▦ &nbsp; Overview</div>
+        <div class="menu-item">◈ &nbsp; Category Analysis</div>
+        <div class="menu-item">◎ &nbsp; Location Insights</div>
+
+    </aside>
+
+    <!-- Main Dashboard -->
+    <main class="main">
+
+        <header class="header">
+
+            <div>
+                <h1>Analytics Dashboard</h1>
+                <p>Hyper-Local Retail Mobility Analytics</p>
+            </div>
+
+            <div class="location">
+                📍 Mumbai, India
+            </div>
+
+        </header>
+
+        <!-- Dashboard Cards -->
+        <section class="cards">
+
+            <div class="card">
+                <p>Total Venues</p>
+                <h2>{{ "{:,}".format(total_venues) }}</h2>
+            </div>
+
+            <div class="card">
+                <p>Unique Categories</p>
+                <h2>{{ total_categories }}</h2>
+            </div>
+
+            <div class="card">
+                <p>Leading Category</p>
+                <h2>{{ top_category }}</h2>
+            </div>
+
+        </section>
+
+        <!-- Category Chart -->
+        <section class="chart-card">
+
+            <h2>Top 10 Venue Categories</h2>
+
+            <p>
+                Distribution of business and service locations in Mumbai
+            </p>
+
+            <div class="chart-container">
+                <canvas id="categoryChart"></canvas>
+            </div>
+
+        </section>
+
+        <footer class="footer">
+            GeoPulse | Data Analytics Project | Mumbai, India
+        </footer>
+
+    </main>
+
+</div>
+
+<!-- Chart Configuration -->
+<script>
+
+    const categoryData = {{ top_categories | tojson }};
+
+    const labels = Object.keys(categoryData);
+    const values = Object.values(categoryData);
+
+    const chartElement = document.getElementById("categoryChart");
+
+    new Chart(chartElement, {
+
+        type: "bar",
+
+        data: {
+            labels: labels,
+
+            datasets: [{
+                label: "Number of Venues",
+                data: values,
+                backgroundColor: "#38bdf8",
+                borderRadius: 6,
+                barThickness: 22
+            }]
+        },
+
+        options: {
+
+            indexAxis: "y",
+
+            responsive: true,
+
+            maintainAspectRatio: false,
+
+            plugins: {
+                legend: {
+                    display: false
+                },
+
+                tooltip: {
+                    enabled: true
+                }
+            },
+
+            scales: {
+
+                x: {
+                    beginAtZero: true,
+
+                    grid: {
+                        color: "#e2e8f0"
+                    },
+
+                    title: {
+                        display: true,
+                        text: "Number of Venues"
+                    }
+                },
+
+                y: {
+                    grid: {
+                        display: false
+                    }
+                }
+
+            }
+
+        }
+
+    });
+
+</script>
+
+</body>
+</html>
