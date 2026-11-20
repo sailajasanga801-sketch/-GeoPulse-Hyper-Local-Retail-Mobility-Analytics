@@ -1,4 +1,5 @@
 
+/* Global Styling */
 * {
     margin: 0;
     padding: 0;
@@ -16,11 +17,13 @@ body {
     min-height: 100vh;
 }
 
+/* Sidebar */
 .sidebar {
     width: 245px;
     background: #172554;
     color: white;
     padding: 30px 20px;
+    flex-shrink: 0;
 }
 
 .brand {
@@ -48,6 +51,7 @@ body {
     font-size: 14px;
 }
 
+/* Main Content */
 .main {
     flex: 1;
     padding: 35px;
@@ -78,6 +82,7 @@ body {
     font-size: 14px;
 }
 
+/* Dashboard Cards */
 .cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -103,11 +108,13 @@ body {
     color: #172554;
 }
 
+/* Chart Section */
 .chart-card {
     background: white;
     padding: 25px;
     border-radius: 13px;
     box-shadow: 0 3px 15px rgba(0,0,0,0.04);
+    margin-bottom: 25px;
 }
 
 .chart-card h2 {
@@ -126,13 +133,102 @@ body {
     height: 380px;
 }
 
+/* Category Filter */
+.filter-section {
+    margin-top: 25px;
+}
+
+.filter-section form {
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.filter-section label {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    color: #334155;
+    margin-bottom: 10px;
+}
+
+.filter-section select {
+    width: 100%;
+    max-width: 400px;
+    padding: 13px 15px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    background: #f8fafc;
+    color: #1e293b;
+    font-size: 14px;
+    cursor: pointer;
+    outline: none;
+}
+
+.filter-section select:focus {
+    border-color: #38bdf8;
+    box-shadow: 0 0 0 3px rgba(56,189,248,0.15);
+}
+
+/* Venue Table */
+.results-heading {
+    font-size: 18px;
+    color: #172554;
+    margin-top: 25px;
+    margin-bottom: 8px;
+}
+
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+    margin-top: 15px;
+}
+
+.venue-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    min-width: 650px;
+}
+
+.venue-table thead {
+    background: #172554;
+    color: white;
+}
+
+.venue-table th,
+.venue-table td {
+    padding: 14px 16px;
+    font-size: 13px;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.venue-table tbody tr {
+    background: white;
+    transition: background 0.2s ease;
+}
+
+.venue-table tbody tr:hover {
+    background: #f0f9ff;
+}
+
+.venue-table td {
+    color: #475569;
+}
+
+.venue-table th {
+    font-weight: 600;
+}
+
+/* Footer */
 .footer {
     margin-top: 25px;
+    padding: 15px;
     color: #94a3b8;
     font-size: 12px;
     text-align: center;
 }
 
+/* Tablet Responsive */
 @media (max-width: 800px) {
     .sidebar {
         width: 180px;
@@ -147,6 +243,7 @@ body {
     }
 }
 
+/* Mobile Responsive */
 @media (max-width: 550px) {
     .layout {
         display: block;
@@ -159,5 +256,15 @@ body {
     .header {
         align-items: flex-start;
         flex-direction: column;
+    }
+
+    .filter-section select {
+        max-width: 100%;
+    }
+
+    .venue-table th,
+    .venue-table td {
+        padding: 10px;
+        font-size: 12px;
     }
 }

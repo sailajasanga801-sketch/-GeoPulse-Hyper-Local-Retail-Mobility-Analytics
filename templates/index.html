@@ -7,11 +7,9 @@
 
     <title>GeoPulse | Mumbai Analytics</title>
 
-    <!-- External CSS -->
     <link rel="stylesheet"
           href="{{ url_for('static', filename='style.css') }}">
 
-    <!-- Chart.js -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 
@@ -52,7 +50,13 @@
         <section class="cards">
 
             <div class="card">
-                <p>Total Venues</p>
+                <p>
+                    {% if selected_category == "all" %}
+                        Total Venues
+                    {% else %}
+                        Filtered Venues
+                    {% endif %}
+                </p>
                 <h2>{{ "{:,}".format(total_venues) }}</h2>
             </div>
 
@@ -68,7 +72,7 @@
 
         </section>
 
-        <!-- Category Chart -->
+        <!-- Top Categories Chart -->
         <section class="chart-card">
 
             <h2>Top 10 Venue Categories</h2>
@@ -83,6 +87,104 @@
 
         </section>
 
+        <!-- Interactive Category Filter -->
+        <section class="chart-card filter-section">
+
+            <h2>Explore Venue Categories</h2>
+
+            <p>
+                Select a category to explore its venue details in Mumbai.
+            </p>
+
+            <form method="GET" action="/">
+
+                <label for="categoryFilter">
+                    Select Category
+                </label>
+
+                <select name="category"
+                        id="categoryFilter"
+                        onchange="this.form.submit()">
+
+                    <option value="all"
+                        {% if selected_category == "all" %}selected{% endif %}>
+                        All Categories
+                    </option>
+
+                    {% for category in categories %}
+
+                    <option value="{{ category }}"
+                        {% if selected_category == category %}selected{% endif %}>
+                        {{ category.title() }}
+                    </option>
+
+                    {% endfor %}
+
+                </select>
+
+            </form>
+
+            <!-- Venue Table -->
+            <h3 class="results-heading">
+                Venue Details
+            </h3>
+
+            <p>
+                Showing up to 100 records for the selected category.
+            </p>
+
+            <div class="table-container">
+
+                <table class="venue-table">
+
+                    <thead>
+                        <tr>
+                            <th>Venue Name</th>
+                            <th>Category</th>
+                            <th>Latitude</th>
+                            <th>Longitude</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+
+                        {% for venue in venue_records %}
+
+                        <tr>
+                            <td>{{ venue["Venue"] }}</td>
+
+                            <td>
+                                {{ venue["Category_Clean"].title() }}
+                            </td>
+
+                            <td>
+                                {{ "%.6f"|format(venue["Venue Latitude"]) }}
+                            </td>
+
+                            <td>
+                                {{ "%.6f"|format(venue["Venue Longitude"]) }}
+                            </td>
+                        </tr>
+
+                        {% else %}
+
+                        <tr>
+                            <td colspan="4">
+                                No venues found.
+                            </td>
+                        </tr>
+
+                        {% endfor %}
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </section>
+
+        <!-- Footer -->
         <footer class="footer">
             GeoPulse | Data Analytics Project | Mumbai, India
         </footer>
@@ -106,15 +208,23 @@
         type: "bar",
 
         data: {
+
             labels: labels,
 
             datasets: [{
+
                 label: "Number of Venues",
+
                 data: values,
+
                 backgroundColor: "#38bdf8",
+
                 borderRadius: 6,
+
                 barThickness: 22
+
             }]
+
         },
 
         options: {
@@ -126,6 +236,7 @@
             maintainAspectRatio: false,
 
             plugins: {
+
                 legend: {
                     display: false
                 },
@@ -133,11 +244,13 @@
                 tooltip: {
                     enabled: true
                 }
+
             },
 
             scales: {
 
                 x: {
+
                     beginAtZero: true,
 
                     grid: {
@@ -148,12 +261,15 @@
                         display: true,
                         text: "Number of Venues"
                     }
+
                 },
 
                 y: {
+
                     grid: {
                         display: false
                     }
+
                 }
 
             }
